@@ -1,0 +1,12 @@
+teguan - 1528854 - Terry Guan
+
+This Lab was to help us understand how to use commands "make" as well as to help us understand git better.
+
+make -f (specific makefile) - This runs a specific makefile name if you have multiple make-files.
+
+
+HelloUser.java - Prints out the OS, java version, any virtual Machine, free memory space, and the current time.
+HelloUser2.java - prints out Hello <USER>
+Makefile1 - makes HelloUser.class if it doesn't exist already from HelloUser. (clean): removes HelloUser.jar and HelloUser.class.
+Makefile2 - Same as Makefile1 but substitues many of the macros.
+Makefile3 - compiles both HelloUser classes.

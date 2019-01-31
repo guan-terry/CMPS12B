@@ -1,0 +1,16 @@
+teguan - 1528854 - Terry Guan
+
+The role of this assignment was to help us get more practice programming in C 
+as well as teach us dynamic memory allocation using calloc, malloc, and free.
+
+You can use charType.c by using the make command followed by ./charType <input>
+<output>
+
+charType.c -
+	It tells you the character type of each line and prints it to the output file
+	
+Makefile -
+	make: creates charType.exe and charType.o
+	make clean: removes charType.exe and charType.of
+	
+README -

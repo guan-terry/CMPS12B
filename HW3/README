@@ -1,0 +1,50 @@
+Terry Guan - 1528854 - teguan
+
+The role of this project was to implement moves, determine moves, and determine if
+a king is under attack. It was also to determine if the moves are legal or not.
+
+Makefile - 
+	make - ChessBoard, bishop, king, Pawn, knight, queen, rook, and ChessPiece into 
+	ChessBoard.jar
+	make clean - cleans out ChessBoard, Pawn, bishop, King, Knight, Queen, Rook, 
+	ChessPiece.
+	
+Pawn-
+	The pawn for the ChessBoard
+	
+Bishop -
+	The bishop for the ChessBoard
+	
+Rook -
+	The rook for the ChessBoard
+	
+Queen -
+	The queen for the ChessBoard
+	
+ChessPiece-
+	An abstract java class for the ChessBoard
+	
+Knight - 
+	The knight for the ChessBoard
+	
+King -
+	The king class for the ChessBoard
+	
+ChessMove.jar - java -jar ChessMove.jar "input-file" "output-file"
+	Runs the program and prints the outputs to the "output-file"
+	
+test-input.txt - 
+	The input file used for ChessBoard
+	
+test-output.txt - 
+	The output files used for ChessBoard, prints out the specific chesspiece on 
+	the given square if any, if that chesspiece attacks any other chesspieces, 
+	invalid if two chesspiece occupies the same square, and - if the given square 
+	is empty.
+	
+ChessBoard.java - 
+	The raw file for ChessBoard, also used to check the logic of ChessPieces.
+	
+README -
+
+	

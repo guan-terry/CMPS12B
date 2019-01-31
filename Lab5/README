@@ -1,0 +1,17 @@
+teguan - 1528854 - Terry Guan
+
+The point of this assignment was to learn how to do queues in c as well as structs in c.
+
+queue.c -
+	Actualy implementation of queue methods.
+	
+queue.h -
+	The header files for queue.c
+	
+queueClient.c -
+	queueClient is used to run the actual program 
+	
+README -
+	this took me 18 hours to complete, I asked help from someone that took 12B last year,
+	he told me to not use dereferences if it is not neccessary.
+	

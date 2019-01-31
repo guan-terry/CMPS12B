@@ -1,0 +1,28 @@
+
+Terry Guan - 1528854 - teguan
+
+The role of this project was to see if you could print N-Queens on an NxN board
+if you're able to print N-Queens on an NxN board than you would print out every
+queen, if you're not able to print N-Queens, then you would print out "No solution"
+
+Makefile - 
+	make - makes the jar file for NQueens file
+	make clean - cleans out NQueens.jar and NQueens.class
+	
+NQueens.jar - java -jar NQueens.jar "input-file" "output-file"
+	Runs the program and prints the outputs to the "output-file"
+	
+test-input.txt - 
+	The input file used for N-Queens
+	
+test-output.txt - 
+	The output files used for N-Queens
+	
+NQueens.java - 
+	The raw file for NQueens
+	
+README -
+	Used some of the recursion from this link -
+	"http://www.geeksforgeeks.org/backtracking-set-3-n-queen-problem/"
+	The idea from this youtube video was also very helpful - 
+	https://www.youtube.com/watch?v=0DeznFqrgAI

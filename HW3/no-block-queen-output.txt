@@ -1,0 +1,11 @@
+legal
+2 4 3 3 illegal
+legal
+2 2 3 3 illegal
+8 3 8 2 illegal
+5 8 4 3 illegal
+4 4 6 4 illegal
+1 1 1 2 illegal
+1 1 1 2 illegal
+legal
+5 8 7 8 illegal

@@ -1,0 +1,24 @@
+Terry Guan - 1528854 - teguan - teguan@ucsc.edu
+
+The role of this project was to use a hashtable to find all words from shakespeare and use that
+information to see which word was the most frequent depending on word size
+
+Makefile -
+	make - makes all the neccessary files for running this program
+	clean - cleans all the files for running this program.
+	
+Bard -
+	the logic for Bard
+	
+SortByLength -
+	a sort method inside this class that sorts all the word files according to frequency
+	
+SortByWord -
+	A sort method inside this class that sorts all the word alphabetically.
+	
+Word -
+	The word class for Bard, includes frequency and the String
+	
+README -
+	https://beginnersbook.com/2014/07/hashtable-iterator-example-java/
+	That was extremely useful to me.

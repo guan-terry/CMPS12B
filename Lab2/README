@@ -1,0 +1,11 @@
+teguan - 1528854 - Terry Guan
+
+The role of Lab2 was to practice using command line arguments, having inputs and outputs on files, 
+as well as String manipulation.
+
+You can use FileReverse by using make on the command line.
+
+FileReverse.java - takes 2 command line arguments and it will read each line of the input file and
+prints out each token backwards to the output file.
+Makefile - compiles FileReverse and creates a jar file in which it can run.
+README - 

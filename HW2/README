@@ -1,0 +1,53 @@
+Terry Guan - 1528854 - teguan
+
+The role of this project is to store a chessboard as a linked list of chesspieces 
+and verify that two pieces do not occupy the same square in the chessboard, given 
+a square, determine if any pieces occupy that specific square, determine if the 
+piece on that specifc square can attack any other pieces in the opposite color.
+
+Makefile - 
+	make - ChessBoard, bishop, king, Pawn, knight, queen, rook, and ChessPiece into 
+	ChessBoard.jar
+	make clean - cleans out ChessBoard, Pawn, bishop, King, Knight, Queen, Rook, 
+	ChessPiece.
+	
+Pawn-
+	The pawn for the ChessBoard
+Bishop -
+	The bishop for the ChessBoard
+	
+Rook -
+	The rook for the ChessBoard
+	
+Queen -
+	The queen for the ChessBoard
+	
+ChessPiece-
+	An abstract java class for the ChessBoard
+	
+Knight - 
+	The knight for the ChessBoard
+	
+King -
+	The king class for the ChessBoard
+	
+ChessBoard.jar - java -jar ChessBoard.jar "input-file" "output-file"
+	Runs the program and prints the outputs to the "output-file"
+	
+test-input.txt - 
+	The input file used for ChessBoard
+	
+test-output.txt - 
+	The output files used for ChessBoard, prints out the specific chesspiece on 
+	the given square if any, if that chesspiece attacks any other chesspieces, 
+	invalid if two chesspiece occupies the same square, and - if the given square 
+	is empty.
+	
+ChessBoard.java - 
+	The raw file for ChessBoard
+	
+README -
+	I used this to check if a character is Uppercase
+	https://stackoverflow.com/questions/677561/is-there-an-existing-library-method-that-checks-if-a-string-is-all-upper-case-or
+	I was having problems with getting a Character to be an Integer without parsing it so I used this
+	https://stackoverflow.com/questions/19388037/converting-characters-to-integers-in-java

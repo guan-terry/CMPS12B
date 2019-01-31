@@ -1,0 +1,16 @@
+teguan - 1528854 - Terry Guan
+
+The role of this lab was to introduce C, including the standrad input-ouput functions, command line arugments,
+File IO, and how strings work in C.
+
+You can use filereverse.c by using the make command followed by the ./fileReverse <input> <output>
+
+fileReverse.c -
+	It reverses the input file and outputs it to the output file.
+	
+Makefile -
+	make: crates fileReverse.exe and fileReverse.o
+	make: removes fileReverse.exe and fileReverse.o
+	
+README - 
+	

@@ -1,0 +1,17 @@
+Terry Guan - 1528854 - teguan - teguan@ucsc.edu
+
+The role of this project was to solve n queens problem without recursion, using stacks.
+The project can now take as many queens in the board as the project wishes. 
+
+Makefile -
+	make - makes the jar file for NQueens and Queens
+	clean - cleans the jar file and the class file for NQueens as well as Queens
+	
+NQueens -
+	The logic for the project of NQueens
+	
+Queens -
+	Queens is the queens class to see if another queen can attack another queen
+	
+README -
+	This took way longer to complete than i thought.
